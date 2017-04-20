@@ -16,6 +16,8 @@ I have also started getting some CI builds going with CirlceCI, but I still need
 - [x] Circle CI builds
 - [ ] Automated pep8 and unittesting in CI builds
 - [X] Build Notifications to Slack
+- [ ] Test coverage reporting
+- [ ] pep8 violations reporting
 
 
 ### Gilded Rose Kata instructions
