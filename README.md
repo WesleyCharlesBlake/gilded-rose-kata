@@ -1,3 +1,25 @@
+[![CircleCI](https://circleci.com/gh/WesleyCharlesBlake/gilded-rose-kata/tree/master.svg?style=svg)](https://circleci.com/gh/WesleyCharlesBlake/gilded-rose-kata/tree/master)
+# Gilded Rose Kata - Python
+
+This is my attempt at the Gilded Rose Kata.
+
+## What I have done:
+
+I refactored gilded_rose.py, to remove the messy if/then statements. I created a class for each instance of updating that was required, with various methods for increasing/decreasing quality, decreasing sell_in and update quality.
+
+I have the added some unittests for the conjured items class.
+
+I have also started getting some CI builds going with CirlceCI, but I still need to spend some more time on this.
+
+## TODO
+- [ ] 100% test coverage
+- [x] Circle CI builds
+- [ ] Automated pep8 and unittesting in CI builds
+- [X] Build Notifications to Slack
+
+
+### Gilded Rose Kata instructions
+=================================
 Hi and welcome to team Gilded Rose.
 
 As you know, we are a small inn with a prime location in a prominent city ran
