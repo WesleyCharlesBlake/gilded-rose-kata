@@ -1,15 +1,12 @@
 version: 2
-dependencies:
-  pre:
-    - pip install pep8
 jobs:
   build:
-    dependencies:
-      pre:
-        - pip install pep8
     working_directory: ~/python
     docker:
       - image: python:2.7
+    dependencies:
+      pre:
+        - pip install pep8
     steps:
       - run: pep8 *.py
       - run: python test_*.py
